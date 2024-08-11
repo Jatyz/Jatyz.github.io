@@ -91,7 +91,8 @@ $(window).scroll(function(){
 $(".dropbtn,.dropdown-content").mouseover(function(){
 $(".dropdown-content").css('display','block')});
 
-$(".dropbtn,.dropdown-content").mouseleave(function(){
+$(".dropbtn,.dropdown-content").mouseleave(function()
+{
 $(".dropdown-content").css('display','none')}
 );
 
@@ -101,8 +102,9 @@ $(".pause").click(function(){
 	$(".bgm").get(0).pause();
         
 })	
-$(".title1").click(function(){
-	$('.hide1').slideToggle();	
+$(".title1").click(function()
+{
+	$('.hide1').slideToggle();
 });
 $(".title2").click(function(){
 	$('.hide2').slideToggle();	
@@ -133,75 +135,109 @@ $(".title25").click(function(){
 	$('.hide25').slideToggle();	
 });
 
-$(".cmunity").click(function(){
+$(".cmunity").click(function()
+{
 	$('.munity').show();
+    $('body').css('overflow', 'hidden');	
 });
 
 $(".ctots").click(function(){
 	$('.tots').show();
+	    $('body').css('overflow', 'hidden');	
 });
 
 $(".cfarmgame").click(function(){
 	$('.farmgame').show();
+	    $('body').css('overflow', 'hidden');	
 });
 $(".ctrains").click(function(){
 	$('.trains').show();
+	    $('body').css('overflow', 'hidden');	
 });
 $(".crollstone").click(function(){
 	$('.rollstone').show();
+	    $('body').css('overflow', 'hidden');	
 });
 $(".csos").click(function(){
 	$('.sos').show();
+	    $('body').css('overflow', 'hidden');	
 });
 $(".cte").click(function(){
 	$('.te').show();
+	    $('body').css('overflow', 'hidden');	
 });
 $(".crsaf").click(function(){
 	$('.rsaf').show();
+	    $('body').css('overflow', 'hidden');	
 });
 
 $(".cabook").click(function(){
 	$('.abook').show();
+	    $('body').css('overflow', 'hidden');	
 });
 $(".chtc").click(function(){
 	$('.htc').show();
+	    $('body').css('overflow', 'hidden');	
 });
 $(".cshp").click(function(){
 	$('.shp').show();
+	    $('body').css('overflow', 'hidden');	
 });
 $(".cdlife").click(function(){
 	$('.dlife').show();
+	    $('body').css('overflow', 'hidden');	
 });
 $(".cwcd").click(function(){
 	$('.wcd').show();
+	    $('body').css('overflow', 'hidden');	
 });
 
 $(".cdvde").click(function(){
 	$('.dvde').show();
+	    $('body').css('overflow', 'hidden');	
 });
 
 $(".cdbms").click(function(){
 	$('.dbms').show();
+	    $('body').css('overflow', 'hidden');	
 });
 
 $(".cappd").click(function(){
 	$('.appd').show();
+	    $('body').css('overflow', 'hidden');	
 });
 
 $(".cjava").click(function(){
 	$('.java').show();
+	    $('body').css('overflow', 'hidden');	
 });
 
 $(".caiml").click(function(){
 	$('.aiml').show();
+	    $('body').css('overflow', 'hidden');	
 });
 
-$(".play").click(function(){
+$(".play").click
+(
+function()
+{
 	$(".play").css('display','none');
 	$(".pause").css('display','block');
-	$(".bgm").get(0).play();
-        
-})	
+	$(".bgm").get(0).play();        
+}
+)
+
+$(".closebtn").click
+(
+function()
+{
+    $('body').css('overflow', 'scroll');
+	$(this).parent().parent().hide();        
+}
+)
+
+
+	
 $('.dvde').click(function(){
  $('.desc').html('<h3>Digital Visual Design module ca1</h3><p>Made in photoshop</p><p>My starting theme was time, then as I continued my mind map it extended to timeline and then future and past. </p> <p>As I am not good at interpreting images I decided that my work will have more words to express what I am trying to convey. I searched for puns and words relating to time then thought of how pen ink could not be erased by an eraser. So I linked both idea together and thus made this artwork.</p><p> From the top left of my artwork you could see the past of a person who has done something against the law. We all know well enough that the past cannot be changed. </p><p> This is expressed by the top right of my artwork which shows the person attempting to erase the past and it only released eraser dust with nothing erased at all. The top right hand is darker compared to the left one and the stickmen shows that it was a dark past one that anyone would want to change just go escape from the consequences.</p><p>The bottom half shows that you can write your future. And if you read in a straight line it would be you can write future choices.</p><p>Under the title future choices you could see many different choices the person could take but all of it is in the pencil font which show that it can still be changed, you have not done it yet, thus they are possible choices and it is up to you to choose the correct path.</p><p>And as from the bottom left you could see after you written it in pen it meant that you have chosen what path you want to take. The stickman at the bottom shows that you should think carefully about your future and choose the correct path. </p>');	
 })
