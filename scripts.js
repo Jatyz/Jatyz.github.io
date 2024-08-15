@@ -217,6 +217,42 @@ $(".caiml").click(function(){
 	    $('body').css('overflow', 'hidden');	
 });
 
+$(".cgam100").click(function(){
+	$('.gam100').show();
+	    $('body').css('overflow', 'hidden');	
+});
+
+$(".cgam150").click(function(){
+	$('.gam150').show();
+	    $('body').css('overflow', 'hidden');	
+});
+
+$(".cgam200").click(function(){
+	$('.gam200').show();
+	    $('body').css('overflow', 'hidden');	
+});
+
+$(".cld1").click(function(){
+	$('.ld1').show();
+	    $('body').css('overflow', 'hidden');	
+});
+
+$(".cld2").click(function(){
+	$('.ld2').show();
+	    $('body').css('overflow', 'hidden');	
+});
+
+$(".cCurio").click(function(){
+	$('.Curio').show();
+	    $('body').css('overflow', 'hidden');	
+});
+
+$(".cToC").click(function(){
+	$('.ToC').show();
+	    $('body').css('overflow', 'hidden');	
+});
+
+
 $(".play").click
 (
 function()
