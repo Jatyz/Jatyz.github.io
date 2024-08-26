@@ -242,16 +242,6 @@ $(".cld2").click(function(){
 	    $('body').css('overflow', 'hidden');	
 });
 
-$(".cCurio").click(function(){
-	$('.Curio').show();
-	    $('body').css('overflow', 'hidden');	
-});
-
-$(".cToC").click(function(){
-	$('.ToC').show();
-	    $('body').css('overflow', 'hidden');	
-});
-
 
 $(".play").click
 (
