@@ -727,6 +727,19 @@ input.centered{
 img.centered{
 	margin: 0 3%;
 }
+
+section.centered img.portrait
+{
+	width: 50%;
+}
+
+section iframe
+{
+	width: 70%;
+	height: auto;
+}
+
+
 /*responsive*/
 @media screen and (min-width: 480px){
 	.contact{
@@ -735,7 +748,10 @@ img.centered{
 	right:0;
 	opacity:0.8;
 }
-
+section.centered img.portrait
+{
+	width: 80%;
+}
 	article{
 	font-size:1em;
 		
@@ -778,6 +794,7 @@ div.others figure{
 	text-align:right;
 	
 }
+
 .layout figure{
 	float:right;
 	padding-left:4em;
@@ -809,6 +826,11 @@ footer p{
 }
 
 @media screen and (min-width: 1024px){
+		section.centered img.portrait
+{
+	width: 100%;
+}
+	
 	div.videogame div{
 	height:550px;
 	font-size:1.4em;
@@ -949,6 +971,8 @@ footer p{
 	div.aboutmee img{
 		width:40%;
 	}
+	
+
 }
 
 
