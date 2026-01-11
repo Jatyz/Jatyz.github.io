@@ -232,6 +232,11 @@ $(".cgam200").click(function(){
 	    $('body').css('overflow', 'hidden');	
 });
 
+$(".cgam300").click(function(){
+	$('.gam300').show();
+	    $('body').css('overflow', 'hidden');	
+});
+
 $(".cld1").click(function(){
 	$('.ld1').show();
 	    $('body').css('overflow', 'hidden');	
